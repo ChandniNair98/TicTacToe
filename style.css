@@ -1,0 +1,26 @@
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 150px);
+    gap: 8px;
+    margin-top: 20px;
+}
+
+.cell{
+    border: 1px solid black;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.cell:hover{
+    background-color: violet;
+}
